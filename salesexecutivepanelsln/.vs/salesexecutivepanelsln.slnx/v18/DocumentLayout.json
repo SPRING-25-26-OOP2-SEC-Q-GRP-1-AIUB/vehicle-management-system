@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|c:\\users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\car portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\car portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\sales executive panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\sales executive panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\order portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\order portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\customer portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\customer portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\customer portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\customer portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\order portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\order portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\car portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\car portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\sales executive panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\sales executive panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Sales executive panel.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Sales executive panel.cs",
+              "RelativeDocumentMoniker": "salesexecutivepanel\\Sales executive panel.cs",
+              "ToolTip": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Sales executive panel.cs [Design]",
+              "RelativeToolTip": "salesexecutivepanel\\Sales executive panel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T04:29:37.439Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Dashboard.cs",
+              "RelativeDocumentMoniker": "salesexecutivepanel\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Dashboard.cs [Design]",
+              "RelativeToolTip": "salesexecutivepanel\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T13:01:11.57Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Car portal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Car portal.cs",
+              "RelativeDocumentMoniker": "salesexecutivepanel\\Car portal.cs",
+              "ToolTip": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Car portal.cs [Design]",
+              "RelativeToolTip": "salesexecutivepanel\\Car portal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T19:01:03.13Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order portal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Order portal.cs",
+              "RelativeDocumentMoniker": "salesexecutivepanel\\Order portal.cs",
+              "ToolTip": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Order portal.cs [Design]",
+              "RelativeToolTip": "salesexecutivepanel\\Order portal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T09:02:53.835Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer portal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Customer portal.cs",
+              "RelativeDocumentMoniker": "salesexecutivepanel\\Customer portal.cs",
+              "ToolTip": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Customer portal.cs [Design]",
+              "RelativeToolTip": "salesexecutivepanel\\Customer portal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T14:00:43.463Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer portal.cs",
+              "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Customer portal.cs",
+              "RelativeDocumentMoniker": "salesexecutivepanel\\Customer portal.cs",
+              "ToolTip": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Customer portal.cs",
+              "RelativeToolTip": "salesexecutivepanel\\Customer portal.cs",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAUwDUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T14:06:09.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Car portal.cs",
+              "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Car portal.cs",
+              "RelativeDocumentMoniker": "salesexecutivepanel\\Car portal.cs",
+              "ToolTip": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Car portal.cs",
+              "RelativeToolTip": "salesexecutivepanel\\Car portal.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAYwK0AAACmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T13:21:55.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sales executive panel.cs",
+              "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Sales executive panel.cs",
+              "RelativeDocumentMoniker": "salesexecutivepanel\\Sales executive panel.cs",
+              "ToolTip": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Sales executive panel.cs",
+              "RelativeToolTip": "salesexecutivepanel\\Sales executive panel.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T14:32:07.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order portal.cs",
+              "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Order portal.cs",
+              "RelativeDocumentMoniker": "salesexecutivepanel\\Order portal.cs",
+              "ToolTip": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Order portal.cs",
+              "RelativeToolTip": "salesexecutivepanel\\Order portal.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAAwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T11:09:43.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Dashboard.cs",
+              "RelativeDocumentMoniker": "salesexecutivepanel\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Dashboard.cs",
+              "RelativeToolTip": "salesexecutivepanel\\Dashboard.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAQwBcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T13:40:52.208Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
