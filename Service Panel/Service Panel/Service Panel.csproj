@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{54DBA6E4-A095-49EB-A544-EAA9F954E0B4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Service_Panel</RootNamespace>
+    <AssemblyName>Service Panel</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm.feedback.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frm.feedback.Designer.cs">
+      <DependentUpon>frm.feedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVihicleHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmVihicleHistory.Designer.cs">
+      <DependentUpon>frmVihicleHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmParts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmParts.Designer.cs">
+      <DependentUpon>frmParts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServicePanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServicePanel.Designer.cs">
+      <DependentUpon>ServicePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmbookservice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbookservice.Designer.cs">
+      <DependentUpon>frmbookservice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAppoinment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmAppoinment.Designer.cs">
+      <DependentUpon>frmAppoinment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmService.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmService.Designer.cs">
+      <DependentUpon>frmService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmServiceTracking.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmServiceTracking.Designer.cs">
+      <DependentUpon>frmServiceTracking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAppointmentmanagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmAppointmentmanagement.Designer.cs">
+      <DependentUpon>frmAppointmentmanagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmbill.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmbill.Designer.cs">
+      <DependentUpon>frmbill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm.feedback.resx">
+      <DependentUpon>frm.feedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmParts.resx">
+      <DependentUpon>frmParts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVihicleHistory.resx">
+      <DependentUpon>frmVihicleHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServicePanel.resx">
+      <DependentUpon>ServicePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbookservice.resx">
+      <DependentUpon>frmbookservice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAppoinment.resx">
+      <DependentUpon>frmAppoinment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmService.resx">
+      <DependentUpon>frmService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmServiceTracking.resx">
+      <DependentUpon>frmServiceTracking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAppointmentmanagement.resx">
+      <DependentUpon>frmAppointmentmanagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbill.resx">
+      <DependentUpon>frmbill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kaif.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
