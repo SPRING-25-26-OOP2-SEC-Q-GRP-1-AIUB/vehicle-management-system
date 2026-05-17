@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\car portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\car portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\car portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\car portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|c:\\users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\sales executive panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\customer portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\customer portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\sales executive panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\sales executive panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|c:\\users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\car portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\car portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\order portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\order portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\customer portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\customer portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\order portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\order portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\customer portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\customer portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\order portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\order portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\car portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|solutionrelative:salesexecutivepanel\\car portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DC633E7-21F1-4353-8941-20EDE130260C}|salesexecutivepanel\\salesexecutivepanel.csproj|C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -79,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Car portal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Car portal.cs",
               "RelativeDocumentMoniker": "salesexecutivepanel\\Car portal.cs",
@@ -92,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Order portal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Order portal.cs",
               "RelativeDocumentMoniker": "salesexecutivepanel\\Order portal.cs",
@@ -100,11 +100,12 @@
               "RelativeToolTip": "salesexecutivepanel\\Order portal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-16T09:02:53.835Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Customer portal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Customer portal.cs",
               "RelativeDocumentMoniker": "salesexecutivepanel\\Customer portal.cs",
@@ -112,36 +113,38 @@
               "RelativeToolTip": "salesexecutivepanel\\Customer portal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-16T14:00:43.463Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Customer portal.cs",
               "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Customer portal.cs",
               "RelativeDocumentMoniker": "salesexecutivepanel\\Customer portal.cs",
               "ToolTip": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Customer portal.cs",
               "RelativeToolTip": "salesexecutivepanel\\Customer portal.cs",
-              "ViewState": "AgIAAA8BAAAAAAAAAAAUwDUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQBAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T14:06:09.085Z"
+              "WhenOpened": "2026-05-16T14:06:09.085Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Car portal.cs",
               "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Car portal.cs",
               "RelativeDocumentMoniker": "salesexecutivepanel\\Car portal.cs",
               "ToolTip": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Car portal.cs",
               "RelativeToolTip": "salesexecutivepanel\\Car portal.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAAAYwK0AAACmAAAAAAAAAA==",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAswMoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-16T13:21:55.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Sales executive panel.cs",
               "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Sales executive panel.cs",
               "RelativeDocumentMoniker": "salesexecutivepanel\\Sales executive panel.cs",
@@ -154,19 +157,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Order portal.cs",
               "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Order portal.cs",
               "RelativeDocumentMoniker": "salesexecutivepanel\\Order portal.cs",
               "ToolTip": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Order portal.cs",
               "RelativeToolTip": "salesexecutivepanel\\Order portal.cs",
-              "ViewState": "AgIAALYAAAAAAAAAAAAAwB8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAALYAAAAAAAAAAAAuwMgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T11:09:43.489Z"
+              "WhenOpened": "2026-05-16T11:09:43.489Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Dashboard.cs",
               "DocumentMoniker": "C:\\Users\\mahin\\source\\repos\\salesexecutivepanelsln\\salesexecutivepanel\\Dashboard.cs",
               "RelativeDocumentMoniker": "salesexecutivepanel\\Dashboard.cs",

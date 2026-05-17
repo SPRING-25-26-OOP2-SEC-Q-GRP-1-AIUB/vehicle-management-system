@@ -30,7 +30,25 @@ namespace salesexecutivepanel
 
         private void Customer_portal_Load(object sender, EventArgs e)
         {
+            LoadCarIDs();
+        }
 
+        private void LoadCarIDs()
+        {
+            SqlConnection conn = new SqlConnection(@"Data Source=mahin\SQLEXPRESS;Initial Catalog=vehicle management system;Integrated Security=True;Encrypt=False;");
+            conn.Open();
+            string query = "SELECT [Car ID] FROM Cars ORDER BY [Car ID]";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            SqlDataAdapter adp = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            adp.Fill(ds);
+            conn.Close();
+
+            txtcarid.Items.Clear();
+            foreach (DataRow row in ds.Tables[0].Rows)
+                txtcarid.Items.Add(row["Car ID"].ToString());
+
+            txtcarid.SelectedIndex = -1;
         }
 
         private void btnshow_Click(object sender, EventArgs e)
@@ -42,13 +60,13 @@ namespace salesexecutivepanel
         {
             if (e.RowIndex < 0) return;
 
-            id                    = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
-            txtname.Text          = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
-            txtusername.Text      = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
-            txtemail.Text         = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
+            id = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+            txtname.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+            txtusername.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
+            txtemail.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
             txtcontactnumber.Text = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
-            txtpassword.Text      = dataGridView1.Rows[e.RowIndex].Cells[6].Value.ToString();
-            txtaddress.Text       = dataGridView1.Rows[e.RowIndex].Cells[7].Value.ToString();
+            txtpassword.Text = dataGridView1.Rows[e.RowIndex].Cells[6].Value.ToString();
+            txtaddress.Text = dataGridView1.Rows[e.RowIndex].Cells[7].Value.ToString();
             txtpurchaseddate.Text = dataGridView1.Rows[e.RowIndex].Cells[9].Value.ToString().Trim();
 
             
@@ -69,7 +87,7 @@ namespace salesexecutivepanel
 
         private void txtcarid_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+         
         }
 
         private void Clear()
@@ -89,18 +107,7 @@ namespace salesexecutivepanel
             dataGridView1.ClearSelection();
             dataGridView1.CurrentCell = null;
 
-            SqlConnection conn2 = new SqlConnection(@"Data Source=mahin\SQLEXPRESS;Initial Catalog=vehicle management system;Integrated Security=True;Encrypt=False;");
-            conn2.Open();
-            string query2 = "SELECT [Car ID] FROM Cars ORDER BY [Car ID]";
-            SqlCommand cmd2 = new SqlCommand(query2, conn2);
-            SqlDataAdapter adp2 = new SqlDataAdapter(cmd2);
-            DataSet ds2 = new DataSet();
-            adp2.Fill(ds2);
-            conn2.Close();
-
-            txtcarid.Items.Clear();
-            foreach (DataRow row in ds2.Tables[0].Rows)
-                txtcarid.Items.Add(row["Car ID"].ToString());
+            LoadCarIDs();
 
             txtcarid.SelectedIndex = -1;
 
@@ -187,10 +194,25 @@ namespace salesexecutivepanel
 
             string selectedCarID = txtcarid.SelectedItem != null ? txtcarid.SelectedItem.ToString() : "";
 
+            if (selectedCarID != "" && txtpurchaseddate.Text.Trim() == "")
+            {
+                MessageBox.Show("Please fill in the Purchased date as well.");
+                return;
+            }
+
+            if (selectedCarID == "" && txtpurchaseddate.Text.Trim() != "")
+            {
+                MessageBox.Show("Please select a Car ID as well.");
+                return;
+            }
+
             string gender = "";
-            if (rbmale.Checked)   gender = "Male";
+            if (rbmale.Checked) gender = "Male";
             if (rbfemale.Checked) gender = "Female";
             if (rbothers.Checked) gender = "Others";
+
+            string carIDValue = selectedCarID == "" ? "NULL" : selectedCarID;
+            string purchasedValue = txtpurchaseddate.Text.Trim() == "" ? "NULL" : "'" + txtpurchaseddate.Text.Trim() + "'";
 
             SqlConnection conn = new SqlConnection(@"Data Source=mahin\SQLEXPRESS;Initial Catalog=vehicle management system;Integrated Security=True;Encrypt=False;");
             conn.Open();
@@ -201,9 +223,9 @@ namespace salesexecutivepanel
                            "', [Contact Number]='" + txtcontactnumber.Text +
                            "', Password='" + txtpassword.Text +
                            "', Address='" + txtaddress.Text +
-                           "', [Car ID]='" + selectedCarID +
-                           "', [Purchased date]='" + txtpurchaseddate.Text +
-                           "' WHERE ID=" + Convert.ToInt32(id);
+                           "', [Car ID]=" + carIDValue +
+                           ", [Purchased date]=" + purchasedValue +
+                           " WHERE ID=" + Convert.ToInt32(id);
             SqlCommand cmd = new SqlCommand(query, conn);
             cmd.ExecuteNonQuery();
             conn.Close();
@@ -275,17 +297,32 @@ namespace salesexecutivepanel
 
             string selectedCarID = txtcarid.SelectedItem != null ? txtcarid.SelectedItem.ToString() : "";
 
+            if (selectedCarID != "" && txtpurchaseddate.Text.Trim() == "")
+            {
+                MessageBox.Show("Please fill in the Purchased date as well.");
+                return;
+            }
+
+            if (selectedCarID == "" && txtpurchaseddate.Text.Trim() != "")
+            {
+                MessageBox.Show("Please select a Car ID as well.");
+                return;
+            }
+
             string gender = "";
-            if (rbmale.Checked)   gender = "Male";
+            if (rbmale.Checked) gender = "Male";
             if (rbfemale.Checked) gender = "Female";
             if (rbothers.Checked) gender = "Others";
+
+            string carIDValue = selectedCarID == "" ? "NULL" : selectedCarID;
+            string purchasedValue = txtpurchaseddate.Text.Trim() == "" ? "NULL" : "'" + txtpurchaseddate.Text.Trim() + "'";
 
             SqlConnection conn = new SqlConnection(@"Data Source=mahin\SQLEXPRESS;Initial Catalog=vehicle management system;Integrated Security=True;Encrypt=False;");
             conn.Open();
             string query = "INSERT INTO Customer (Name, Username, Email, Gender, [Contact Number], Password, Address, [Car ID], [Purchased date]) VALUES ('" +
                            txtname.Text + "','" + txtusername.Text + "','" + txtemail.Text + "','" + gender + "','" +
-                           txtcontactnumber.Text + "','" + txtpassword.Text + "','" + txtaddress.Text + "','" +
-                           selectedCarID + "','" + txtpurchaseddate.Text + "')";
+                           txtcontactnumber.Text + "','" + txtpassword.Text + "','" + txtaddress.Text + "'," +
+                           carIDValue + "," + purchasedValue + ")";
             SqlCommand cmd = new SqlCommand(query, conn);
             cmd.ExecuteNonQuery();
             conn.Close();
